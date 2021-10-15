@@ -51,4 +51,4 @@ ret, thresh = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
 # ]
 # ]
 # imwriteについて : https://kuroro.blog/python/i0tNE1Mp8aEz8Z7n6Ggg/
-cv2.imwrite('./output.png', thresh)
+cv2.imwrite('./output.jpg', thresh)
